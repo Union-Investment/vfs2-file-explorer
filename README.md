@@ -2,7 +2,12 @@ vfs2-file-explorer
 ==================
 
 # Description
-**vfs2-file-explorer** is a liferay portlet developed with vaadin and based on apache vfs 2 component
+**vfs2-file-explorer** is a liferay (tested on 6.1.1) portlet developed with vaadin and based on apache vfs 2 component
+
+
+# Build
+
+mvn vaadin:update-widgetset clean install
 
 # Configuration
 
