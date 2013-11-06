@@ -40,7 +40,7 @@ path to keyfile like /home/user/keyfile/id_rsa
 
 ----------
 
- - It is possible if the portlet allows to upload and delete files
+ - It is possible to configure if the portlet allows to upload and delete files
  - It is possible to specify liferay roles which are allowed to upload an delete files
  - It is possible to filter the result set with a wildcard search (e.g. *abc*, *.txt)
  - Multiple file upload with browsers like firefox , chrome (does not work from IE) via drag and drop from desktop
