@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portlet-app
+    xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd"
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd
+                        http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd">
+
+    <portlet>
+        <description>VFSFileExplorerPortlet</description>
+        <portlet-name>VFSFileExplorerPortlet</portlet-name>
+        <display-name>VFSFileExplorerPortlet</display-name>
+
+        <portlet-class>de.unioninvestment.portal.VFSResourceApplicationPortlet</portlet-class>
+
+		<init-param>
+			<name>application</name>
+			<value>de.unioninvestment.portal.VFSFileExplorerPortlet</value>
+		</init-param>
+		<init-param>
+			<name>widgetset</name>
+			<value>de.unioninvestment.portal.VFSWidgetSet</value>
+		</init-param>
+		
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+			<portlet-mode>edit</portlet-mode>
+			<portlet-mode>help</portlet-mode>
+		</supports>
+        
+
+        <portlet-info>
+            <title>VFSFileExplorerPortlet</title>
+            <short-title>VFSFileExplorerPortlet</short-title>
+            <keywords>VFSFileExplorerPortlet</keywords>
+        </portlet-info>
+    </portlet>
+</portlet-app>
