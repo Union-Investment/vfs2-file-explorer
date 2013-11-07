@@ -47,7 +47,7 @@ path to keyfile like /home/user/keyfile/id_rsa
 
 # Screenshot
 
-![Screenshot](https://github.com/Union-Investment/vfs2-file-explorer/img/vfs2screenshot.jpg)
+![Screenshot](https://github.com/Union-Investment/vfs2-file-explorer/blob/master/img/vfs2screenshot.jpg)
 
 # Features
 
