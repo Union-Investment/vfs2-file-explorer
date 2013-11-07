@@ -45,6 +45,12 @@ path to keyfile like /home/user/keyfile/id_rsa
 
 ----------
 
+# Screenshot
+
+![Screenshot](https://github.com/Union-Investment/vfs2-file-explorer/img/vfs2screenshot.jpg)
+
+# Features
+
  - It is possible to configure if the portlet allows to upload and delete files
  - It is possible to specify liferay roles which are allowed to upload an delete files
  - It is possible to filter the result set with a wildcard search (e.g. *abc*, *.txt)
